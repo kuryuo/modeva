@@ -1,0 +1,176 @@
+.checkoutPage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    color: #3e3e3e;
+  }
+
+  .logo::first-letter {
+    color: #8b4513;
+  }
+  
+  .checkoutContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Button {
+    width: 250px;
+    height:45px;
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .leftColumn {
+    width: 60%;
+    padding-right: 20px;
+  }
+  
+  .rightColumn {
+    margin-top: -60px; 
+    width: 35%;
+    padding-left: 20px;
+  }
+  
+  .formTitle {
+    font-size: 76px;
+    font-weight: 500;
+    font-family: "Playfait Display";
+    margin-bottom: 20px;
+  }
+  
+  .orderSummaryTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .checkoutItem {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .checkoutItemImage {
+    width: 112px;
+    height: 149px;
+    margin-right: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .checkoutItemDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productName {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .productPrice {
+    font-size: 1rem;
+    color: #757575;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Для экранов меньше 992px */
+@media (max-width: 992px) {
+  .formTitle {
+    font-size: 60px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .checkoutItemImage {
+    width: 100px;
+    height: 130px;
+  }
+
+  .productName {
+    font-size: 1rem;
+  }
+
+  .productPrice {
+    font-size: 0.9rem;
+  }
+
+  .Button {
+    width: 200px; 
+  }
+  .total {
+    font-size: 1rem;
+  }
+}
+
+/* Для экранов меньше 768px */
+@media (max-width: 768px) {
+  .formTitle {
+    font-size: 48px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .checkoutContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftColumn {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .rightColumn {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .Button {
+    width: 180px;
+  }
+
+  .checkoutItemImage {
+    width: 80px;
+    height: 110px;
+  }
+
+  .productName {
+    font-size: 0.9rem;
+  }
+
+  .productPrice {
+    font-size: 0.8rem;
+  }
+
+  .total {
+    font-size: 0.9rem;
+  }
+}

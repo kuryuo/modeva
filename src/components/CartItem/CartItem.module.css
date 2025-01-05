@@ -1,0 +1,133 @@
+.cartItem {
+    display: flex;
+    position: relative;
+    width: 756px;
+    height: 186px;
+    padding: 10px;
+  }
+  
+  .cartItemImage {
+    width: 116px;
+    height: 155px;
+    margin-right: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .productName {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .productPrice {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: #757575;
+    margin-bottom: 10px;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    right: 10px;  
+    bottom: 24px; 
+    color: #929292;
+    border: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 1200px) {
+    .cartItem {
+      width: 100%;    
+      height: auto;   
+    }
+  
+    .cartItemImage {
+      width: 100px;    
+      height: 130px;   
+      margin-right: 15px;
+    }
+  
+    .productName {
+      font-size: 22px;   
+    }
+  
+    .productPrice {
+      font-size: 18px;   
+    }
+  
+    .deleteButton {
+      font-size: 18px;   
+    }
+  }
+  
+    
+  @media (max-width: 992px) {
+    .cartItem {
+      width: 100%;    
+      flex-direction: column;    
+      align-items: center;
+      height: auto;    
+    }
+  
+    .cartItemImage {
+      width: 90px;
+      height: 120px;
+      margin-right: 0;
+      margin-bottom: 15px;   
+    }
+  
+    .productName {
+      font-size: 20px;
+    }
+  
+    .productPrice {
+      font-size: 16px;
+    }
+  
+    .deleteButton {
+      font-size: 16px;
+      position: relative;    
+      bottom: unset;
+    }
+  }
+  
+    
+  @media (max-width: 768px) {
+    .cartItem {
+      width: 100%;
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .cartItemImage {
+      width: 80px;
+      height: 110px;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .productName {
+      font-size: 18px;
+    }
+  
+    .productPrice {
+      font-size: 14px;
+    }
+  
+    .deleteButton {
+      font-size: 14px;
+    }
+  }

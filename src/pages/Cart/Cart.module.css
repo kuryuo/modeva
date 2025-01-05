@@ -1,0 +1,117 @@
+.cartPage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .content {
+    padding: 0px 45px;
+  }
+  
+  .title {
+    color: #3E3E3E;
+    font-size: 76px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .cartContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cartItems {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .shoppingInfo {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .shoppingInfoTitle {
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .checkoutButton {
+    width: 100%;
+    height: 52px;
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .checkoutButton:hover {
+    background-color: #66320E;
+  }
+  
+  @media (max-width: 1200px) {
+    .cartContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cartItems {
+      flex: none;
+      width: 100%;
+    }
+  
+    .shoppingInfo {
+      flex: none;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .shoppingInfoTitle {
+      font-size: 28px;
+    }
+  
+    .total {
+      font-size: 1.1rem;
+    }
+  
+    .checkoutButton {
+      height: 48px;
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .shoppingInfoTitle {
+      font-size: 24px;
+    }
+  
+    .total {
+      font-size: 1rem;
+    }
+  
+    .checkoutButton {
+      height: 45px;
+      font-size: 1rem;
+    }
+  }

@@ -1,0 +1,153 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #8b4513;
+    color: white;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+  }
+  
+  .column1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .contact{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+  
+  .contactLeft, .contactRight {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column2, .column3, .column4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .heading {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+  }
+  
+  @media (max-width: 992px) {
+    .footer {
+      padding: 30px;
+      gap: 30px;  
+    }
+  
+    .footerContent {
+      gap: 40px;
+      flex-direction: column;  
+      align-items: center;  
+    }
+  
+    .column1, .column2, .column3, .column4 {
+      flex: 1;
+      width: 100%;  
+      margin-bottom: 20px;  
+    }
+  
+    .logo {
+      font-size: 36px;  
+    }
+  
+    .heading {
+      font-size: 12px;  
+    }
+  
+    .contact {
+      font-size: 10px;  
+    }
+  }
+  
+   
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .contacts {
+      max-width: 300px;  
+      width: 100%;  
+      gap: 8px;  
+    }
+  
+    .footerContent {
+      gap: 20px;
+      flex-direction: column;  
+      align-items: center;
+    }
+  
+    .column1, .column2, .column3, .column4 {
+      flex: 1;
+      width: 100%;  
+      margin-bottom: 20px;
+    }
+  
+    .logo {
+      font-size: 28px;  
+    }
+  
+    .heading {
+      font-size: 10px;  
+    }
+  
+    .contact {
+      font-size: 9px;  
+    }
+  
+    .bottom {
+      font-size: 10px;
+        
+    }
+  }

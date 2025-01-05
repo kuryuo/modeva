@@ -1,0 +1,86 @@
+
+.formSection {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; 
+  }
+
+  .error {
+    color: red;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-family: "Lato";
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Lato";
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input,
+  .inputGroup select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .phoneInput {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phoneInput select {
+    width: 80px;
+  }
+  
+  .submitButton {
+    padding: 12px 20px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #66320E;
+  }
+  
+  @media (max-width: 1200px) {
+    .checkoutForm {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .checkoutForm {
+      max-width: 450px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .checkoutForm {
+      max-width: 100%;
+    }
+  }
+  

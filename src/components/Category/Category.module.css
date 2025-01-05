@@ -1,0 +1,145 @@
+.dropdown {
+    position: relative;
+    width: 323px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .dropdownButton {
+    width: 100%;
+    height: 52px;
+    background-color: #E8E1DE;
+    color: #3e3e3e;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .categoryButton {
+    width: 90%;
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto; 
+    font-size: 16px;
+  }
+  
+  .subMenu {
+    width: 90%;
+    margin-left: auto; 
+    padding: 10px 20px;
+    list-style: none;
+  }
+  
+  .subMenuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .subMenuItem input {
+    margin-right: 10px;
+  }
+  
+  .count {
+    background-color: #EBEBEB;
+    color: #3e3e3e;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    .dropdown {
+      width: 280px;  
+    }
+  
+    .dropdownButton {
+      font-size: 14px;  
+      padding: 8px 18px;  
+    }
+  
+    .categoryButton {
+      font-size: 14px;  
+    }
+  
+    .subMenuItem {
+      font-size: 14px;  
+    }
+  }
+  
+   
+  @media (max-width: 992px) {
+    .dropdown {
+      width: 240px;  
+    }
+  
+    .dropdownButton {
+      font-size: 14px;  
+      padding: 7px 16px;  
+    }
+  
+    .categoryButton {
+      font-size: 14px;  
+    }
+  
+    .subMenuItem {
+      font-size: 13px;  
+    }
+  
+    .count {
+      font-size: 11px;  
+    }
+  }
+  
+   
+  @media (max-width: 768px) {
+    .dropdown {
+      width: 200px;  
+    }
+  
+    .dropdownButton {
+      font-size: 12px;  
+      padding: 6px 12px;  
+    }
+  
+    .categoryButton {
+      font-size: 12px;  
+    }
+  
+    .subMenuItem {
+      font-size: 12px;  
+    }
+  
+    .count {
+      font-size: 10px;  
+    }
+  }

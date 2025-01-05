@@ -1,0 +1,54 @@
+.addToCart {
+  background-color: #8b4513;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 283px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.addToCart:hover {
+  background-color: #66320E;
+}
+  
+.addText {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .addToCart {
+    width: 240px;
+    height: 60px;
+  }
+
+  .addText {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .addToCart {
+    width: 220px;
+    height: 55px;
+  }
+
+  .addText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .addToCart {
+    width: 180px;
+    height: 50px;
+  }
+
+  .addText {
+    font-size: 14px;
+  }
+}
